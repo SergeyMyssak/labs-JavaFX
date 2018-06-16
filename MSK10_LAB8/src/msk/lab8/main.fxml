@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.effect.Blend?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="694.0" prefWidth="816.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="msk.lab8.Controller">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffffff00" height="116.0" layoutY="579.0" stroke="BLACK" strokeType="INSIDE" width="816.0" />
+      <Line endX="168.0" layoutX="564.0" layoutY="93.0" startX="-87.0" />
+      <Line endX="57.0" endY="-80.0" layoutX="676.0" layoutY="173.0" startX="58.0" startY="331.0" />
+      <Circle fill="#eeff00" layoutX="479.0" layoutY="93.0" radius="12.0" stroke="BLACK" strokeType="INSIDE" />
+      <Slider fx:id="theFirstSlider" layoutX="385.0" layoutY="599.0" majorTickUnit="1.0" max="6.0" min="1.0" minorTickCount="0" prefHeight="38.0" prefWidth="365.0" showTickLabels="true" showTickMarks="true" snapToTicks="true" value="1.0" />
+      <Slider fx:id="theSecondSlider" layoutX="386.0" layoutY="645.0" majorTickUnit="1.0" max="7.0" min="2.0" minorTickCount="0" prefHeight="38.0" prefWidth="365.0" showTickLabels="true" showTickMarks="true" snapToTicks="true" value="1.0" />
+      <Button fx:id="buttonStart" layoutX="32.0" layoutY="599.0" mnemonicParsing="false" onAction="#buttonStartAction" prefHeight="76.0" prefWidth="126.0" text="Старт">
+         <font>
+            <Font name="Arial" size="12.0" />
+         </font></Button>
+      <Label layoutX="225.0" layoutY="599.0" text="Точка начала движения">
+         <font>
+            <Font name="Arial" size="12.0" />
+         </font></Label>
+      <Label layoutX="211.0" layoutY="644.0" text="Конечная точка движения">
+         <font>
+            <Font name="Arial" size="12.0" />
+         </font></Label>
+      <Line endX="100.0" layoutX="634.0" layoutY="505.0" startX="-394.0" />
+      <Line endX="58.0" endY="191.0" layoutX="182.0" layoutY="175.0" startX="58.0" startY="330.0" />
+      <Line endX="34.0" layoutX="339.0" layoutY="366.0" startX="-100.0" />
+      <Line endX="57.0" endY="177.0" layoutX="315.0" layoutY="36.0" startX="58.0" startY="330.0" />
+      <Line endX="151.0" layoutX="221.0" layoutY="213.0" startX="-158.0" />
+      <ImageView fitHeight="76.0" fitWidth="135.0" layoutX="-15.0" layoutY="41.0" pickOnBounds="true" preserveRatio="true" rotate="90.0">
+         <image>
+            <Image url="@bus.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="69.0" fitWidth="135.0" layoutX="73.0" layoutY="41.0" pickOnBounds="true" preserveRatio="true" rotate="90.0">
+         <image>
+            <Image url="@bus.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="76.0" fitWidth="135.0" layoutX="167.0" layoutY="42.0" pickOnBounds="true" preserveRatio="true" rotate="90.0">
+         <image>
+            <Image url="@bus.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="76.0" fitWidth="135.0" layoutX="254.0" layoutY="42.0" pickOnBounds="true" preserveRatio="true" rotate="90.0">
+         <image>
+            <Image url="@bus.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="76.0" fitWidth="138.0" layoutX="14.0" layoutY="492.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@bus.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="69.0" fitWidth="167.0" layoutX="14.0" layoutY="412.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@bus.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="476.0" layoutY="85.0" text="1">
+         <effect>
+            <Blend />
+         </effect>
+      </Label>
+      <Circle fill="#eeff00" layoutX="733.0" layoutY="170.0" radius="12.0" stroke="BLACK" strokeType="INSIDE" />
+      <Label layoutX="730.0" layoutY="162.0" text="2">
+         <effect>
+            <Blend />
+         </effect>
+      </Label>
+      <Circle fill="#eeff00" layoutX="733.0" layoutY="308.0" radius="12.0" stroke="BLACK" strokeType="INSIDE" />
+      <Label layoutX="730.0" layoutY="300.0" text="3">
+         <effect>
+            <Blend />
+         </effect>
+      </Label>
+      <Circle fill="#eeff00" layoutX="477.0" layoutY="505.0" radius="12.0" stroke="BLACK" strokeType="INSIDE" />
+      <Label layoutX="474.0" layoutY="497.0" text="4">
+         <effect>
+            <Blend />
+         </effect>
+      </Label>
+      <Circle fill="#eeff00" layoutX="241.0" layoutY="367.0" radius="12.0" stroke="BLACK" strokeType="INSIDE" />
+      <Label layoutX="238.0" layoutY="359.0" text="5">
+         <effect>
+            <Blend />
+         </effect>
+      </Label>
+      <Circle fill="#eeff00" layoutX="372.0" layoutY="214.0" radius="12.0" stroke="BLACK" strokeType="INSIDE" />
+      <Label layoutX="369.0" layoutY="206.0" text="6">
+         <effect>
+            <Blend />
+         </effect>
+      </Label>
+      <Circle fill="#eeff00" layoutX="75.0" layoutY="213.0" radius="12.0" stroke="BLACK" strokeType="INSIDE" />
+      <Label layoutX="72.0" layoutY="205.0" text="7">
+         <effect>
+            <Blend />
+         </effect>
+      </Label>
+      <Rectangle fx:id="bus" arcHeight="5.0" arcWidth="5.0" fill="#ffffff00" height="62.0" layoutX="477.0" layoutY="93.0" stroke="TRANSPARENT" strokeType="INSIDE" width="146.0" />
+   </children>
+</AnchorPane>

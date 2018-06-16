@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="rootPane" prefHeight="340.0" prefWidth="370.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.TheFirstController">
+   <children>
+      <Text layoutX="28.0" layoutY="67.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Вас приветствует система быстрого анкетирования!" textAlignment="CENTER" wrappingWidth="314.494140625">
+         <font>
+            <Font name="Arial" size="25.0" />
+         </font>
+      </Text>
+      <Label layoutX="78.0" layoutY="148.0" text="Тема - Периоды жизни">
+         <font>
+            <Font name="Arial" size="20.0" />
+         </font>
+      </Label>
+      <Button fx:id="buttonExit" layoutX="78.0" layoutY="301.0" mnemonicParsing="false" onAction="#buttonExitAction" prefWidth="97.0" text="Выход">
+         <font>
+            <Font name="Arial" size="12.0" />
+         </font></Button>
+      <Button fx:id="buttonStart" layoutX="212.0" layoutY="301.0" mnemonicParsing="false" onAction="#buttonStartAction" prefWidth="80.0" text="Начать">
+         <font>
+            <Font name="Arial" size="12.0" />
+         </font></Button>
+   </children>
+</AnchorPane>
